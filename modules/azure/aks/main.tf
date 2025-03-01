@@ -11,9 +11,6 @@ provider "azurerm" {
   features {}
 }
 
-provider "kubectl" {
-  // Add necessary configuration here or remove if not needed
-}
 
 data "azurerm_subscription" "current" {}
 
