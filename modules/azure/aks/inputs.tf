@@ -31,9 +31,6 @@ variable "default_node_type" {
   type = string
   default = "Standard_D2_v2"
 }
-variable "github_token" {
-  type=string
-}
 
 variable "cluster_url" {
   type = string
